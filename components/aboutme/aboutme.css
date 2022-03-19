@@ -1,0 +1,39 @@
+.main-section {
+    background-image: url(../../assets/About\ Me.jpg);
+    height: 615px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+.text-boxes {
+    display: flex;
+}
+
+.text-box-left {
+    
+}
+
+.photo-box-right {
+    
+}
+
+a:link {
+    text-decoration: none; 
+    color: #000000;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    color: #647338;
+}
+
+a:active {
+    text-decoration: none;
+    color: #000000;
+}

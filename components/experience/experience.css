@@ -1,0 +1,27 @@
+.middle-section {
+    background-image: url(../../assets/Experience.jpg);
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+a:link {
+    text-decoration: none; 
+    color: #000000;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    color: #647338;
+}
+
+a:active {
+    text-decoration: none;
+    color: #000000;
+}

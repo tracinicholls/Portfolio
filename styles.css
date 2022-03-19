@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+}
+
+.navigation-bar {
+    border: 1px solid lightgray;
+    height: 35px;
+    background-color: white;
+    color: #000000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.title {
+   height: 100px;
+   font-size: 35px;
+   text-align: center;
+   letter-spacing: 5px;
+   font-family: 'Montserrat', sans-serif;
+   color: #002626; 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: #D7D7D5;
+   font-weight: 900;
+}
+
+.main-section {
+    background-image: url(assets/thestandingdesk-9qaKxU20GjY-unsplash.jpg);
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+.footer {
+    border-top: 10px solid white;
+}
+
+.footer-container {
+    display: flex;
+    height: 55px;
+    justify-content: space-between;
+}
+
+.footer-container-left {
+    color: #002626;
+    text-align: left;
+    height: 50px;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 5px;
+    display: flex;
+}
+
+.git {
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 50px;
+}
+
+i {
+    color: #000000;
+}
+
+i:hover {
+    color: #708646;
+}
+
+.footer-container-right {
+    color: #002626;
+    text-align: right;
+    height: 50px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin: 5px;
+}
+
+a:link {
+    text-decoration: none; 
+    color: #000000;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    color: #647338;
+}
+
+a:active {
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav-link {
+    width: 150px;
+    text-align: center;
+    font-family: 'Montserrat' sans-serif;
+    letter-spacing: 1.5px;
+}
+
+img {
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px #363533;
+}
+
+.first-column {
+    font-size: 7px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    height: 400px;
+    width: auto;
+    margin: 500px 450px 0px 0px;
+
+}
+
+.footer-container-left:hover {
+    color: #523B2D;
+}
+.first-column {
+    text-align: left;
+}
