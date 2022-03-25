@@ -1,22 +1,11 @@
-.main-section {
-    background-image: url(../../assets/About\ Me.jpg);
+.main-section-aboutme {
+    background-image: url(../../assets/cristi-ursea-Ahbw0cGz8Nk-unsplash.jpg);
     height: 615px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     padding: 20px;
-}
-
-.text-boxes {
     display: flex;
-}
-
-.text-box-left {
-    
-}
-
-.photo-box-right {
-    
 }
 
 a:link {
@@ -36,4 +25,26 @@ a:hover {
 a:active {
     text-decoration: none;
     color: #000000;
+}
+
+.top-heading {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    height: 400px;
+    width: auto;
+    margin: 15px 15px 0px 0px;
+    padding: 20px 20px 20px 20px;
+}
+
+.bottom-heading {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+.image-family {
+    border-radius: 12px;
+    object-fit: cover;
+    box-shadow: 10px 10px 10px #363533;
 }

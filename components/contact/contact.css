@@ -1,10 +1,22 @@
-.main-container {
-    background-image: url(../../assets/Contact\ Me.jpg);
+.main-container-contact {
+    background-image: url(../../assets/florian-klauer-mk7D-4UCfmg-unsplash.jpg);
     height: 615px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     padding: 20px;
+    width: 30vw;
+}
+
+.body-section {
+    display: flex;
+}
+
+.body-section-contact {
+    padding: 50px;
+    margin-top: 75px;
+    margin-right: 50px;
+    
 }
 
 a:link {
@@ -26,3 +38,38 @@ a:active {
     color: #000000;
 }
 
+input[type=text], select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: 'Montserrat', sans-serif;
+}
+
+input[type=submit] {
+    background-color: #647338;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: 'Montserrat', sans-serif;
+}
+
+input[type=submit]:hover {
+    background-color: #647338;
+}

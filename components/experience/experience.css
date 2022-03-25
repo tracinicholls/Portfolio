@@ -1,10 +1,18 @@
-.middle-section {
+.middle-section-experience {
     background-image: url(../../assets/Experience.jpg);
     height: 600px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     padding: 20px;
+}
+
+.right-column-experience {
+    
+}
+
+h4 {
+    text-decoration: underline;
 }
 
 a:link {

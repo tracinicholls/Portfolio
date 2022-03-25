@@ -108,7 +108,7 @@ a:active {
     letter-spacing: 1.5px;
 }
 
-img {
+.image-portrait {
     border-radius: 50%;
     box-shadow: 10px 10px 10px #363533;
 }
